@@ -34,8 +34,8 @@ public class LionParamaterizedTest {
     }
     @Test
     public void doesHaveManeReturnCorrectValue() throws Exception {
-        Lion lion = new Lion("Самец", feline, true);
-        Assert.assertEquals(true, lion.doesHaveMane());
+        Lion lion = new Lion(sex, feline);
+        Assert.assertEquals(hasMane, lion.doesHaveMane());
     }
 
 }

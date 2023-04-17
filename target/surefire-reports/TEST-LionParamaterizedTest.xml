@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="2" failures="0" name="LionParamaterizedTest" time="0.013" errors="0" skipped="0">
+<testsuite tests="2" failures="0" name="LionParamaterizedTest" time="0.007" errors="0" skipped="0">
   <properties>
     <property name="idea.version" value="2022.3.2"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
@@ -63,6 +63,6 @@
     <property name="java.vendor.version" value="Corretto-11.0.18.10.1"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="LionParamaterizedTest" name="doesHaveManeReturnCorrectValue[0]" time="0.013"/>
-  <testcase classname="LionParamaterizedTest" name="doesHaveManeReturnCorrectValue[1]" time="0"/>
+  <testcase classname="LionParamaterizedTest" name="doesHaveManeReturnCorrectValue[0]" time="0.006"/>
+  <testcase classname="LionParamaterizedTest" name="doesHaveManeReturnCorrectValue[1]" time="0.001"/>
 </testsuite>
